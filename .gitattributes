@@ -1,0 +1,8 @@
+# Tratar todos os arquivos como "texto automático".
+# O Git tentará adivinhar quais são texto e quais são binários.
+* text=auto
+
+# Forçar a quebra de linha (EOL - End of Line) a ser "LF"
+# quando o arquivo for salvo no repositório.
+# O Git fará a conversão local (para CRLF no Windows) automaticamente.
+* eol=lf

@@ -1,0 +1,39 @@
+# 1. Dependências
+node_modules/
+
+# 2. Logs
+# Arquivos de log gerados pelo npm ou yarn em caso de erro.
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 3. Arquivos de Sistema Operacional
+# Arquivos de metadados do macOS
+.DS_Store
+# Arquivos de cache de miniaturas do Windows
+Thumbs.db
+
+# 4. Arquivos de Editores e IDEs
+# Configurações locais do Visual Studio Code
+.vscode/
+# Configurações locais de IDEs da JetBrains (WebStorm, IntelliJ)
+.idea/
+
+# 5. Arquivos de Ambiente (MUITO IMPORTANTE)
+# Nunca envie arquivos com senhas, chaves de API ou segredos.
+.env
+.env.local
+.env.*.local
+!*.env.example
+
+# 6. Relatórios de Testes
+# Pasta gerada pelo Jest (ou outras ferramentas) ao calcular cobertura de teste.
+coverage/
+
+# 7. Pastas de "Build" (Produção)
+# Pastas comuns onde o código "compilado" ou "transpilado" é colocado.
+dist/
+build/
+.out/
